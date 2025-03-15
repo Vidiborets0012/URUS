@@ -190,3 +190,41 @@ body {
   max-width: 100%;
   border-radius: 20px;
 }
+
+.color__text {
+  margin-bottom: 70px;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.color__gallery {
+  background-color: #13171c;
+}
+
+.color__gallery-start,
+.color__gallery-end {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 170px 50px;
+  text-align: center;
+}
+
+.gallery-box__item-img {
+  margin-bottom: 20px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.gallery-box__item-text {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+}
